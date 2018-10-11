@@ -10,7 +10,7 @@ import configparser
 
 # Read config file
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('ml-config.ini')
 
 def init():
     global model

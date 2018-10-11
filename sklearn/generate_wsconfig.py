@@ -5,7 +5,7 @@ import configparser
 
 # Read config file
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('ml-config.ini')
 
 subscription_id = config['ws_config']['subscription_id']
 resource_group = config['ws_config']['resource_group']

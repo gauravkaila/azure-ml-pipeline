@@ -8,7 +8,7 @@ import ast
 
 # Read config file
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('ml-config.ini')
 
 # Initialize workspace from config
 ws = Workspace.from_config()
