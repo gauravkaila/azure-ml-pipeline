@@ -1,2 +1,2 @@
 # azure-ml-pipeline
-Azure Machine Learning Pipeline - DRAFT
+Azure Machine Learning Pipeline
