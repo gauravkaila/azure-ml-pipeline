@@ -79,7 +79,7 @@ run.wait_for_completion(show_output=True)
 
 # Register the model
 print('Registering model...')
-model = run.register_model(model_name=config['train']['model_name'], model_path='./outputs/model.h5')
+model = run.register_model(model_name=config['train']['model_name'], model_path='./outputs/ridge_1.pkl')
 print('Done registering model.')
 
 
